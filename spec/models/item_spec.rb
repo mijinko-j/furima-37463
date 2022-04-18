@@ -73,13 +73,7 @@ RSpec.describe Item, type: :model do
         expect(@item.errors.full_messages).to include("Price is not a number")
       end
     end
-    
   end
-
 end
 
-# bundle exec rspec spec/models/item_spec.rb
-# binding.pry
-# @item.errors
-# @item.errors.full_messages
 
